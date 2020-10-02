@@ -16,5 +16,11 @@ public class Funtional extends DriverSetup {
 	}
 	
 	
+	@Test
+	public void clickGmail()
+	{
+		driver.findElement(By.className("gb_g")).click();
+	}
+	
 
 }
